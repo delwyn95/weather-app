@@ -2,7 +2,7 @@ const request = require('request')
 const API_KEY = require('../../CONSTANTS')
 
 const forecast = (latitude, longitude, callback) => {
-  const url = `https://api.darksky.net/forecast/${API_KEY/${latitude},${longitude}?units=si`
+  const url = `https://api.darksky.net/forecast/${API_KEY}/${latitude},${longitude}?units=si`
 
   request(({url, json:true}), (error,{body}) => {
     if (error){
