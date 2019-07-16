@@ -1,5 +1,5 @@
 const request = require('request')
-// const GEOCODE_API_KEY = require('../../CONSTANTS')
+const GEOCODE_API_KEY = require('../../CONSTANTS')
 const GEOCODE_API_KEY = 'pk.eyJ1Ijoia2htZXJiMTAiLCJhIjoiY2p4emhzd2k2MDJhbTNscW55bngyazhmcSJ9.94Q92J4HfB2IRLXDtqhZ7w'
 
 const geocode = (address, callback) => {
